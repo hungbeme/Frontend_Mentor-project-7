@@ -116,6 +116,7 @@ section {
   html {
     font-size: 8px;
   }
+
   main {
     display: flex;
     flex-direction: column;
@@ -126,7 +127,7 @@ section {
   .main-container {
     width: 90%;
     max-width: fit-content;
-    /* margin: 0 auto; */
+    margin: 10rem auto 5rem auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
